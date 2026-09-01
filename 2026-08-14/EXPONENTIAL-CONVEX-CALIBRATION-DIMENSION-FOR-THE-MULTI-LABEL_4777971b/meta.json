@@ -4,5 +4,27 @@
  "title": "EXPONENTIAL-CONVEX-CALIBRATION-DIMENSION-FOR-THE-MULTI-LABEL",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-14 14:48:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ebdfd053-b032-4425-b8f6-23b1ee5cf983.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ebdfd053-b032-4425-b8f6-23b1ee5cf983.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:34:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-label classification",
+    "Jaccard loss",
+    "convex calibration dimension",
+    "MinHash",
+    "F-measure",
+    "non-decomposable loss",
+    "prediction dimension"
+   ],
+   "field": "多标签学习的理论分析与校准维度",
+   "innovations": [
+    "证明多标签 Jaccard 损失的凸校准维度为 Θ(2^s)，首次确立其指数级精确校准下界",
+    "给出 F₁ 到 Jaccard 的遗憾转移不等式，最优 F₁ 报告的 Jaccard 遗憾上界改进至 3-2√2",
+    "基于 MinHash 随机特征构造多项式维度的 α-近似一致 Jaccard 代理，带符号压缩版本维度低至 O(s/α²)"
+   ]
+  }
+ }
 }

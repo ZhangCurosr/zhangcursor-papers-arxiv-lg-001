@@ -4,5 +4,35 @@
  "title": "Equivariant-learning-of-a-transferable-three-dimensional-cla",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-14 14:48:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/02624db4-2a49-4795-9302-bc22690be6a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/02624db4-2a49-4795-9302-bc22690be6a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:35:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "classical density functional theory",
+    "equivariant machine learning",
+    "excess free energy functional",
+    "cubic symmetry",
+    "Lennard-Jones fluid",
+    "phase coexistence",
+    "solvent-mediated force"
+   ],
+   "field": "机器学习驱动的经典密度泛函理论",
+   "innovations": [
+    "以显式标量泛函形式学习三维过量自由能泛函，保持立方点群 O_h 等变性与变分一致性",
+    "利用局部化学势空间平衡解析消去未知化学势，从正则系综密度场直接学习无需自由能或化学势标签",
+    "单一泛函跨温度/尺寸/系综迁移并涌现结构因子、状态方程、气液共存、界面与溶剂介导力等未训练可观测量"
+   ],
+   "benchmarks": [
+    "LJTS 流体结构因子 S(k)",
+    "LJTS 压缩系数法状态方程",
+    "LJTS 气液共存曲线与临界点",
+    "LJTS 液-气界面展宽",
+    "软胶体桥溶剂介导力",
+    "螺旋（gyroid）多孔吸附等温线"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Diagnosing-JEPA-World-Models-with-Action-Conditioned-Predict",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-14 04:08:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/2a052a2d-feab-4f35-b08b-628799f3f239.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/2a052a2d-feab-4f35-b08b-628799f3f239.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:32:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "JEPA",
+    "world models",
+    "ACPC",
+    "diagnostic",
+    "robustness",
+    "bisimulation",
+    "latent prediction",
+    "visual perturbation"
+   ],
+   "field": "具身智能与 world model 评估",
+   "innovations": [
+    "提出ACPC成对诊断并证明预测误差与规划成本的样本级上界",
+    "定义IR+SR联合checkpoint指标防表示坍缩",
+    "跨LeWM/PLDM两种架构与高斯噪声/模糊/resize多种扰动验证诊断可迁移性"
+   ],
+   "benchmarks": [
+    "TwoRoom",
+    "PushT",
+    "Reacher",
+    "OGBench-Cube",
+    "LeWM",
+    "PLDM"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Difference-of-Convex-Regularization-for-Graph-Learning-by-Di",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-08-14 04:09:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/932a8e01-0df6-4be1-a669-9f29e19fd418.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/932a8e01-0df6-4be1-a669-9f29e19fd418.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:31:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Laplacian pseudoinverse",
+    "DC programming",
+    "graph learning",
+    "Tyler estimator",
+    "CCCP",
+    "differentiable programming",
+    "nonnegative least squares"
+   ],
+   "field": "图信号处理/优化",
+   "innovations": [
+    "提出DCR两阶段框架，通过正则化MLE+CCCP学习Laplacian伪逆近似，将对偶学习从实例推理中解耦",
+    "利用KKT结构将原始解表达为对偶变量的可微函数，实现端到端对偶引导重建",
+    "建立缩进正则化CCCP迭代的不动点存在性理论保证，覆盖低采样率鲁棒场景"
+   ],
+   "benchmarks": [
+    "grid2d",
+    "Erdos-Renyi (ER)"
+   ]
+  }
+ }
 }

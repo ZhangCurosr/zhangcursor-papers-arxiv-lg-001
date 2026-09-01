@@ -4,5 +4,27 @@
  "title": "Decentralized-Multi-Player-Q-Learning-in-Episodic-Markov-Dec",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-08-14 14:49:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/de87b705-fd78-4309-8263-f3a82ed79ef5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/de87b705-fd78-4309-8263-f3a82ed79ef5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:30:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-player reinforcement learning",
+    "Markov decision processes",
+    "Q-learning",
+    "information asymmetry",
+    "regret bounds",
+    "decentralized learning",
+    "explore-then-commit"
+   ],
+   "field": "多智能体强化学习理论",
+   "innovations": [
+    "在三种信息不对称设定下提出去中心化 Q 学习算法并证明 regret 界",
+    "利用字典序破 tie 与区间宽度一致性实现无通信隐式协调",
+    "将单智能体 UCB-Q 的集中率复制到 Problem A/B，并刻画 Problem C 的探索-提交代价"
+   ]
+  }
+ }
 }

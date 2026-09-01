@@ -4,5 +4,32 @@
  "title": "EEG-Decoding-Using-CNN-and-LSTM-Network",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-14 04:11:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/468dda59-de63-4ce2-a77a-d0552e4527a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/468dda59-de63-4ce2-a77a-d0552e4527a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:33:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MI-EEG",
+    "CNN",
+    "bi-LSTM",
+    "brain-computer interface",
+    "motor imagery",
+    "deep learning"
+   ],
+   "field": "脑电解码与脑机接口",
+   "innovations": [
+    "提出CNN空间滤波+批量归一化+双向LSTM的端到端MI-EEG联合特征学习框架",
+    "实验证明结合空间卷积与双向时序建模优于单纯加深LSTM或使用传统手工特征",
+    "在多组公开与私有数据集上实现跨受试者稳定提升，并提供超参数与表征可视化的系统分析"
+   ],
+   "benchmarks": [
+    "D2",
+    "D3",
+    "D4",
+    "D1"
+   ]
+  }
+ }
 }

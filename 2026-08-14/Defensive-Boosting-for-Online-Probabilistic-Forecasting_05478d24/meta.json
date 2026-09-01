@@ -4,5 +4,36 @@
  "title": "Defensive-Boosting-for-Online-Probabilistic-Forecasting",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-14 14:48:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/e24d009a-25d3-4cfc-a562-563580f7c75f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/e24d009a-25d3-4cfc-a562-563580f7c75f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:30:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "在线概率预测",
+    "防御性提升",
+    "在线学习",
+    "多准确度",
+    "硬核分布",
+    "弱到强提升",
+    "在线梯度提升"
+   ],
+   "field": "在线学习与提升理论",
+   "innovations": [
+    "首次通过防御性预测框架同时实现在线梯度提升的无条件span保证和在线分类提升的弱到强条件保证",
+    "实现对偶提升视角的在线操作化，仅需单个弱类oracle而非集成",
+    "构造后验hard-core错误权重作为弱学习条件失效的显式证书"
+   ],
+   "benchmarks": [
+    "Bank Marketing",
+    "Electricity",
+    "Airlines",
+    "Occupancy",
+    "Appliance Energy",
+    "Bike Demand",
+    "Interstate Traffic"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Distribution-Steering-via-Sliced-Optimal-Transport-Control",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-14 14:49:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/db7e689d-7729-4521-955c-1acfa768ce9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/db7e689d-7729-4521-955c-1acfa768ce9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:32:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sliced optimal transport",
+    "distribution steering",
+    "optimal transport control",
+    "linear dynamical systems",
+    "Wasserstein distance",
+    "feedback control"
+   ],
+   "field": "最优传输与控制理论交叉",
+   "innovations": [
+    "提出基于切片最优传输的有限时间分布控制框架，将一维投影传输映射解释为方向性终端条件",
+    "证明平均切片反馈使切片Wasserstein距离单调非增，对高斯分布退化为仿射反馈并给出显式能量界",
+    "证明随机单方向控制器在采样周期趋于零时以O(h)误差收敛到平均切片流"
+   ],
+   "benchmarks": [
+    "二维高斯混合分布控制",
+    "颜色分布转移（莫奈干草堆到睡莲）"
+   ]
+  }
+ }
 }

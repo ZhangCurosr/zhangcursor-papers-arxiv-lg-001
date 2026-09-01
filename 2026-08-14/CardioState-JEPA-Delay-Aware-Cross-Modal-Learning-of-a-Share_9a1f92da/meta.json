@@ -4,5 +4,41 @@
  "title": "CardioState-JEPA-Delay-Aware-Cross-Modal-Learning-of-a-Share",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-14 14:49:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d6c9b0ed-7d21-41e3-a9cc-485c93e25399.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d6c9b0ed-7d21-41e3-a9cc-485c93e25399.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:27:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cardiac foundation model",
+    "ECG",
+    "PPG",
+    "PCG",
+    "joint-embedding predictive architecture",
+    "cross-modal learning",
+    "self-supervised learning",
+    "physiological delay alignment"
+   ],
+   "field": "多模态生理信号表征学习",
+   "innovations": [
+    "提出生理感知的联合嵌入预测架构，在 ECG/PPG/PCG 三模态上学习统一心脏潜在表征",
+    "引入可学习延迟对齐器+生理锚定监督，实现跨模态时序对齐",
+    "两阶段课程学习策略：先单模态掩码潜在预测建立模态内结构，再用配对数据进行延迟感知跨模态对齐"
+   ],
+   "benchmarks": [
+    "PTB-XL",
+    "CPSC 2018",
+    "CSN",
+    "WESAD",
+    "DaLiA",
+    "MIMIC AF",
+    "CirCor",
+    "CinC2016",
+    "PPG-EXT",
+    "VitalDB",
+    "EPHNOGRAM"
+   ]
+  }
+ }
 }

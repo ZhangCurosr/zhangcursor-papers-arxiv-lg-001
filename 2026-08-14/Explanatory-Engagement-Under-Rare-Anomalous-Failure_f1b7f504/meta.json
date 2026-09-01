@@ -4,5 +4,33 @@
  "title": "Explanatory-Engagement-Under-Rare-Anomalous-Failure",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-14 04:13:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/19da772b-07b3-4f86-947e-7b5b4fa1627b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/19da772b-07b3-4f86-947e-7b5b4fa1627b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:35:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI行为",
+    "罕见事件检测",
+    "解释性参与",
+    "本地语言模型",
+    "触发条件",
+    "渐近稀有性",
+    "工具使用失败",
+    "跨模型比较",
+    "自报置信度"
+   ],
+   "field": "语言模型行为分析",
+   "innovations": [
+    "揭示解释触发条件是可检测性阈值效应的一阶调节变量",
+    "形式化定义空尾伪影并发现识别-参与解离现象",
+    "发现llama3.1:8b在无提示条件下的志愿性置信度侵蚀自我监控行为"
+   ],
+   "benchmarks": [
+    "八级故障率调度（0.2至0.0001）",
+    "五类解释触发条件交叉实验"
+   ]
+  }
+ }
 }

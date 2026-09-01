@@ -4,5 +4,31 @@
  "title": "Designing-AI-Pipelines-for-Decision-Ready-ITSM-Intelligence",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-08-14 04:09:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/8dc01853-ac9c-4a64-b020-69f0934a8637.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/8dc01853-ac9c-4a64-b020-69f0934a8637.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:31:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ITSM",
+    "主题聚类",
+    "HDBSCAN",
+    "层次抽象",
+    "混合评估",
+    "决策支持",
+    "设计科学"
+   ],
+   "field": "信息系统的AI决策支持",
+   "innovations": [
+    "将HDBSCAN+HAC双层聚类与LLM标注结合，实现从异构ITSM工单到执行级决策报告的全自动流水线",
+    "系统揭示ML嵌入指标与人类判断的对齐边界（Distinctiveness r=0.78、Coherence r=0.64对齐，而Coherence/Granular Fit负相关）",
+    "以TTF与TAM理论为框架建立Trust/Interpretability/Actionability/Likelihood-of-Use四维决策支持评估指标"
+   ],
+   "benchmarks": [
+    "6个ITSM artifact人类评估（5评审者×1-5量表）",
+    "ML-人类Pearson对齐实验"
+   ]
+  }
+ }
 }

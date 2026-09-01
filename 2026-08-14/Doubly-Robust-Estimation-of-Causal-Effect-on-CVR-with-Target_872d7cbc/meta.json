@@ -4,5 +4,32 @@
  "title": "Doubly-Robust-Estimation-of-Causal-Effect-on-CVR-with-Target",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-14 04:09:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d54e9a61-b47f-4f67-9ed0-8479d961d5e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d54e9a61-b47f-4f67-9ed0-8479d961d5e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:33:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "因果推断",
+    "双重稳健估计",
+    "目标正则化",
+    "CVR估计",
+    "选择偏差",
+    "半参数理论",
+    "链式结果"
+   ],
+   "field": "因果推断与推荐系统交叉",
+   "innovations": [
+    "提出针对CVR链式结构的双重稳健估计量并证明√n收敛性",
+    "将目标正则化扩展至非标准ratio-type estimand实现端到端稳定训练",
+    "证明无偏损失去偏不保证无偏估计量，需直接针对最终estimand构造"
+   ],
+   "benchmarks": [
+    "Synthetic",
+    "News半合成数据",
+    "CRITEO-UPLIFTv2"
+   ]
+  }
+ }
 }

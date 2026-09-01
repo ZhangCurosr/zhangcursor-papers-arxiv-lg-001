@@ -4,5 +4,29 @@
  "title": "Demand-Transfer-Estimation-at-Scale-via-Restricted-Logit-Mod",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-08-14 04:13:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/5d5c9f39-682e-4fe0-882b-9c3681265743.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/5d5c9f39-682e-4fe0-882b-9c3681265743.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:30:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Demand Transfer",
+    "Multinomial Logit",
+    "Assortment Optimization",
+    "Restricted Logit Model",
+    "Item Substitution",
+    "Markov Chain Choice Model"
+   ],
+   "field": "零售需求预测与货架组合优化",
+   "innovations": [
+    "利用 MNL 与 rank-one Markov Chain 等价性，将 DT 系数估计问题转化为可扩展的 MNL 拟合+受限推断",
+    "构建 Store Yule's Q + SBERT 混合的替换分数框架，支持百万级 SKU 的替换关系识别",
+    "在重叠需求状态下保持可计算性，无需互斥类目划分即可输出显式 item-to-item DT 系数"
+   ],
+   "benchmarks": [
+    "Forecast WMAPE vs Adjusted WMAPE（50个类目×多门店离线回测）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Discovering-Persistent-Behavioural-Patterns-for-Interpretabl",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-14 04:13:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/f3dc9754-3e53-4da5-b732-db4de385a5e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/f3dc9754-3e53-4da5-b732-db4de385a5e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:32:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "blockchain forensics",
+    "behavioral pattern discovery",
+    "DeFi",
+    "sentence embedding",
+    "sequence model",
+    "unsupervised clustering",
+    "persistent behavior"
+   ],
+   "field": "区块链行为分析与可解释取证",
+   "innovations": [
+    "两步嵌入（句级+序列级）结合可解释行为分析器的无监督用户行为发现框架",
+    "通过长度泄漏审计与跨窗口持久性双重验证提升聚类可信度",
+    "事后引入预标记与风险暴露证据的行为画像，实现可疑模式的可解释定位"
+   ],
+   "benchmarks": [
+    "XBlock-ETH (Ethereum blocks 16250000-16749999)",
+    "De.Fi REKT / DefiLlama / DeFiHackLabs / ImmuneBytes 外部标签集",
+    "BUBA / TF-IDF+SVD / Doc2Vec / Feature baseline"
+   ]
+  }
+ }
 }

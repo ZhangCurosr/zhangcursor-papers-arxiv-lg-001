@@ -4,5 +4,32 @@
  "title": "EEG-Decoding-Using-CNN-and-LSTM-Network",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-14 14:48:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/468dda59-de63-4ce2-a77a-d0552e4527a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/468dda59-de63-4ce2-a77a-d0552e4527a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:33:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EEG decoding",
+    "motor imagery",
+    "CNN",
+    "bidirectional LSTM",
+    "brain-computer interface",
+    "deep learning"
+   ],
+   "field": "脑机接口与神经信号解码",
+   "innovations": [
+    "CNN&bi-LSTM混合架构实现端到端空间-时序联合特征学习",
+    "LASSO初始化结合MSE损失提升小样本EEG训练稳定性",
+    "系统评估电极数量与数据比例对性能的影响规律"
+   ],
+   "benchmarks": [
+    "D1私有数据集85.4%",
+    "D2公开数据集81.80%",
+    "D3公开数据集87.97%",
+    "D4公开数据集85.32%"
+   ]
+  }
+ }
 }
